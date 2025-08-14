@@ -21,11 +21,18 @@
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
             letter-spacing: 2px;
+            color: rgb(102, 16, 181);
         }
         header p {
             font-size: 1.2rem;
             color: #bdbdbd;
         }
+
+        #tripe {
+            border-radius: 50%;
+            box-shadow: 0 4px 16px rgb(102, 16, 181);
+            margin-top: 2rem;
+        }        
         .links {
             display: flex;
             justify-content: center;
@@ -37,9 +44,12 @@
             border-radius: 10px;
             padding: 1.5rem 2rem;
             text-align: center;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 16px rgb(102, 16, 181);
             transition: transform 0.2s;
+            text-emphasis-color: rgb(102, 16, 181);
+            
         }
+        
         .link-card:hover {
             transform: translateY(-5px) scale(1.05);
         }
@@ -69,13 +79,24 @@
             margin-top: 0.5rem;
         }
 
+
+
     </style>
 </head>
 <body>
     <header>
         <h1 id="niga2">HYUAAE</h1>
-        <img src="favicon.ico" alt=""width="300" height="300">
-        <p></p>
+        <a href="mailto:prodbylui@mail.com">
+            <img src="favicon.ico" alt="" width="300" height="300" id="tripe">
+        </a>
+        <style>
+            #tripe {
+            transition: transform 0.2s;
+            }
+            #tripe:hover {
+            transform: scale(1.08);
+            }
+        </style>
     </header>
     <section class="links">
         <div class="link-card">
@@ -99,6 +120,12 @@
     <footer>
         &copy; 2025 $$$$. All rights reserved.
         <h5 id="niga">btw blrd coming soon :D</h5>
+        <p id="niga">leno brega</p>
+        <!-- why r u even here... gross...-->
+         <!--boate,zona e puteiro,redivos e cabares-->
+         <!--o que meu pai mais gostava,era de cu de mulher-->
+         <!--boate,zona e puteiro,redivos e cabares-->
+         <!--o que meu pai mais gostava,era de cu de mulher-->
     </footer>
     <script>
         // Example: Animate header on load
