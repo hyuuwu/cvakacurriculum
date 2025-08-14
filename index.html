@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>yzy</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem 1rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #bdbdbd;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .link-card {
+            background: #333;
+            border-radius: 10px;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-5px) scale(1.05);
+        }
+        .link-card a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .link-card svg {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #bdbdbd;
+            font-size: 0.95rem;
+        }
+
+        #niga {
+            font-size: 0.8rem;
+            color: #000000;
+            margin-top: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="niga2">HYUAAE</h1>
+        <img src="favicon.ico" alt=""width="300" height="300">
+        <p></p>
+    </header>
+    <section class="links">
+        <div class="link-card">
+            <a href="https://open.spotify.com/intl-pt/artist/6ioSe48zKczycCV21mHzmg" target="_blank">
+                
+                SPOTIFY
+            </a>
+        </div>
+        <div class="link-card">
+            <a href="https://www.youtube.com/@hyuaae" target="_blank">
+                YT
+            </a>
+        </div>
+        <div class="link-card">
+            <a href="https://www.instagram.com/yzyfoamrunner" target="_blank">
+                
+                INSTAGRAM
+            </a>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 $$$$. All rights reserved.
+        <h5 id="niga">btw blrd coming soon :D</h5>
+    </footer>
+    <script>
+        // Example: Animate header on load
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('header').style.opacity = 0;
+            setTimeout(() => {
+                document.querySelector('header').style.transition = 'opacity 1s';
+                document.querySelector('header').style.opacity = 1;
+            }, 200);
+        });
+    </script>
+</body>
+</html>
