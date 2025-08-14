@@ -1,0 +1,13 @@
+# So you're a robot. Welcome, I guess.
+User-agent: *
+
+# The front door is open. Try not to break anything.
+Allow: /
+
+# My stuff. Not your stuff.
+Disallow: /admin/
+
+# Shhh. Contains secret plans and embarrassing photos.
+Disallow: /private/
+
+# Okay, that's all the rules. Now scram.
