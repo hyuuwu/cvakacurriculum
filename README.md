@@ -1,2 +1,1 @@
-# cvakacurriculum
-giletão
+# :]
